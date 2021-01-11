@@ -1,0 +1,15 @@
+h1 {
+	color: blue;
+}
+
+h2 {
+	background-color: brown;
+}
+
+p.para2{
+	font: 1em sans-serif;
+}
+
+p#para1 {
+	color: cyan;
+}
