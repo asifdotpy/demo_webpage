@@ -333,7 +333,7 @@ hr {
 	text-decoration: none;
 }
 
-#menu .current_page_item a {
+#menu a:hover, .current_page_item a {
 	background: #1abc9c;
 }
 
