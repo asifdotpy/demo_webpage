@@ -129,7 +129,7 @@ body {
     margin-bottom: 0;
 }
 
-/* Container 
+/* Container */
 
 .container {
 	margin: 0 auto;
@@ -137,19 +137,45 @@ body {
 	width: 70em;
 }
 
-*/
+	@media screen and (max-width: 1680px) {
+
+		.container {
+			width: 68em;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.container {
+			width: calc(100% - 80px);
+		}
+
+	}
 
 
-	h2 {
-		font-size: 1.65em;
-		font-weight: 400;
-		letter-spacing: 4px;
-		margin: 0 0 1.5em 0;
-		line-height: 1.75em;
+	@media screen and (max-width: 980px) {
+
+		.container {
+			width: calc(100% - 100px);
+		}
+
 	}
-	.row.aln-center {
-		justify-content: center;
+
+	@media screen and (max-width: 736px) {
+
+		.container {
+			width: calc(100% - 40px);
+		}
+
 	}
+
+
+
+
+
+
+
 
 
 	
